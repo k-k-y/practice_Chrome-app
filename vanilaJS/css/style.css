@@ -1,0 +1,70 @@
+.hidden {
+    display: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Playfair Display', serif;
+}
+
+.clock-design {
+    font-size: 80px; 
+}
+
+.greet-fontsize {
+    font-size: 30px;
+}
+
+.transparent-design {
+    width: 100%;
+    padding: 5px;
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0.0); /* 투명한 흰색 배경색 */
+    border: rgba(255, 255, 255, 0.0); /* 투명한 흰색 테두리 */
+    font-size: 1.5em;
+    outline: none;
+    color: white;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    opacity: 0.8;
+}
+
+.transparent-design::placeholder {
+    color: white;
+    text-decoration: underline;
+}
+
+.quote-font {
+    font-family: 'Crimson Text', serif;
+    font-style: italic;
+    font-size: 20px;
+}
+
+.quote-place {
+    position: fixed;
+    left: 20px;
+    bottom: 10px;
+}
+
+.todo-design {
+    font-size: 20px;
+    list-style-type: none;
+}
+
+.weather-place {
+    position: fixed;
+    right: 20px;
+    top: 10px;
+    display: flex;
+    flex-direction: column;
+}

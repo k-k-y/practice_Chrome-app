@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <link rel="stylesheet" href="css/style.css" />
+        <title>My Website!</title>
+    </head>
+
+    <body>
+        <h1 id="clock" class="clock-design">00:00:00</h1>
+
+        <div>
+            <form id="login-form" class="hidden" > 
+                <input class="transparent-design" required maxlength="15" type="text" placeholder="Type your name here" />
+            </form>
+            <h2 id ="greeting" class="hidden; greet-fontsize" ></h2>
+        </div>
+        
+        <form id="todo-form" class="hidden">
+            <input class="transparent-design" type="text" placeholder="Write a To Do here" required />
+        </form>
+        <ul id="todo-list" class="todo-design"></ul>
+
+        <div id="quote" class="quote-place">
+            <p id="quote-text" class="quote-font"></p>
+        </div>
+
+        <div id="weather" class="weather-place">
+            <span></span>
+            <span></span>
+        </div>
+
+        <script src="js/greeting.js"></script>
+        <script src="js/clock.js"></script>
+        <script src="js/quote.js"></script>
+        <script src="js/background.js"></script>
+        <script src="js/todo.js"></script>
+        <script src="js/weather.js"></script>
+    </body>
+</html>
